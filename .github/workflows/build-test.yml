@@ -2,6 +2,7 @@ name: build-test
 on:
   push:
     branches:
+      - "fake-main"
       - "main"
       - "dev-v3"
       - "release-**"
